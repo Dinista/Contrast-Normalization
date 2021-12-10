@@ -7,7 +7,7 @@ Basic python implementation that applies local contrast normalization with the u
 
 ## How it works
 
-Basically, a neighborhood region is centered on a pixel x in the input image, from where the intensity values will be extracted and then applied with the global method. The result is applied at the x position of the output image. This neighborhood region is shifted pixel by pixel so that all pixels in the input image are processed.
+Basically, a neighborhood region is centered on a pixel x in the input image, from where the intensity values will be extracted and then applied with the global method. The result is applied at the x position of the output image. This neighborhood region is shifted pixel by pixel so that all pixels in the input image are processed. For a more efficient implementation, the <a href="https://scikit-image.org/"> scikit-image</a> library was used, functions such as <a href="https://scikit-image.org/docs/dev/api/skimage.filters.rank.html#skimage.filters.rank.maximum"><i>skimage.filters.rank.maximum</i></a> and <a href="https://scikit-image.org/docs/dev/api/skimage.filters.rank.html#skimage.filters.rank.minimum"><i>skimage.filters.rank.minimum</i></a>, which are two rank statistics filters.
 
 ### Input and output
 
