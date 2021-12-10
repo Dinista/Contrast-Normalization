@@ -2,7 +2,9 @@
 
 ## Introduction
 
-Basic python implementation that applies local contrast normalization with the use of order filters. The idea is to use the intensity distribution only in the vicinity of the pixel being processed, and not the entire image. Therefore, the process becomes local and no longer global.
+Basic python implementation that applies local contrast normalization with the use of order filters. The idea is to use the intensity distribution only in the vicinity of the pixel being processed, and not the entire image. Therefore, the process becomes local and no longer global. A portuguese article was written analyzing the results. The article can be found in the folder: <i>docs</i>
+
+<b>Second project of digital image processing</b>
 
 
 ## How it works
