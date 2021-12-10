@@ -13,4 +13,7 @@ Basically, a neighborhood region is centered on a pixel x in the input image, fr
 
 ### Input & output
 
+The application will look for images in the same directory as the source code (accepting jpeg, png and tif formats), asking which image do you wanna load.
+
+
 ## How to use
