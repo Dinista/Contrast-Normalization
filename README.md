@@ -19,7 +19,7 @@ The application will look for images <b>in the same directory as the source code
 After that, it's necessary to inform which mask size will be used.
 
 ### Output
-The output will be the image with the normalization applied. A preview of the output will be shown in a new window by OpenCv, you can either save the image or not. <b>The saved image will be in the same directory as the source code</b>.
+The output will be the image with the contrast normalization applied. A preview of the output will be shown in a new window by OpenCv, you can either save the image or not. <b>The saved image will be in the same directory as the source code</b>.
 
 An example of output using 5 as mask size (input on the left, output on the right):
 <div style = "display: inline-block;">
