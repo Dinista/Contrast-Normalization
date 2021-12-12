@@ -13,6 +13,10 @@ Basically, a neighborhood region is centered on a pixel x in the input image, fr
 
 ### Input & output
 
+
+
+
 ## How to use
 
-The application will look for images in the same directory as the source code (accepting jpeg, png and tif formats), asking which image do you wanna load.
+The application will look for images <b>in the same directory as the source code</b> (accepting jpeg, png and tif formats), asking which image do you want to load.
+After that it's necessary to inform which mask size will be used. A preview of both original image and normalized will be displayed. After closing the preview window you either can save the result image or not.
