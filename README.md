@@ -31,7 +31,6 @@ An example of output using 5 as mask size (input on the left, output on the righ
 
 <ul style = "color: red;">
   <li>Numpy.</li>
-  <li>Matplotlib.</li>
   <li>OpenCv.</li>
   <li>Scikit-image.</li>
 </ul>
