@@ -11,12 +11,26 @@ Basic python implementation that applies local contrast normalization with the u
 
 Basically, a neighborhood region is centered on a pixel x in the input image, from where the intensity values will be extracted and then applied with the global method. The result is applied at the x position of the output image. This neighborhood region is shifted pixel by pixel so that all pixels in the input image are processed. For a more efficient implementation, the <a href="https://scikit-image.org/"> scikit-image</a> library was used, functions such as <a href="https://scikit-image.org/docs/dev/api/skimage.filters.rank.html#skimage.filters.rank.maximum"><i>skimage.filters.rank.maximum</i></a> and <a href="https://scikit-image.org/docs/dev/api/skimage.filters.rank.html#skimage.filters.rank.minimum"><i>skimage.filters.rank.minimum</i></a>, which are two rank statistics filters.
 
-### Input & output
-
-
-
 
 ## How to use
 
+### Input
 The application will look for images <b>in the same directory as the source code</b> (accepting jpeg, png and tif formats), asking which image do you want to load.
-After that it's necessary to inform which mask size will be used. A preview of both original image and normalized will be displayed. After closing the preview window you either can save the result image or not.
+After that, it's necessary to inform which mask size will be used.
+
+### Output
+The output will be the image with the selected operator applied. A preview of the output will be shown in a new window by OpenCv, you can either save the image or not. <b>The saved image will be in the same directory as the source code</b>.
+
+An example of output using 5 as mask size (input on the left, output on the right):
+<div style = "display: inline-block;">
+<img src="https://github.com/Dinista/Contrast-Normalization/blob/main/Sample%20images/test.jpg" width="180">
+<img src="https://github.com/Dinista/Contrast-Normalization/blob/main/Sample%20images/5_test.jpg" width="180">
+</div>
+
+### Dependencies
+
+<ul style = "color: red;">
+<li>Numpy.</li>
+<li>Matplotlib.</li>
+<li>OpenCv.</li>
+</ul>
